@@ -5,7 +5,8 @@ A small weather lookup app — type in a city, get the current conditions back. 
 **Live demo:** #
 **Repo:** #
 
-![screenshot](#)
+<img width="1600" height="802" alt="image" src="https://github.com/user-attachments/assets/684d9ad5-ce86-4342-99f8-f89c8dd317fe" />
+
 
 ## What it does
 
