@@ -38,7 +38,7 @@ npm install
 Add a `.env` file:
 
 ```
-WEATHER_API_KEY=your_key_here
+api_key=your_key_here
 ```
 
 Then:
