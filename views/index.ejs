@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/main.css">
 </head>
 <body>
-    <div class="weather-card gradient-background">
+    <body class="gradient-background">
     <div class="container">
         <h1>Weather API</h1>
         <p>Get the current weather for your location.</p>
@@ -21,7 +21,7 @@
         
         <input type="text" name="city" placeholder="Enter city name" required>
         <button type="submit">Get Weather</button>
-    </form>
+    </form></div>
 
     <% if (locals.weather) { %>
   <!-- display weather here -->
@@ -29,7 +29,7 @@
         <h2>Weather in <%= weather.name %></h2>
         <p>Temperature: <%= weather.main.temp %>°C</p>
         <img src="https://openweathermap.org/img/wn/<%= weather.weather[0].icon %>@2x.png" alt="weather icon">
-        <p>Weather: <%= weather.weather[0].description %></p>
+        <p>Weather: <%= weather.weather[0].description %></p>     
         
         <p>Humidity: <%= weather.main.humidity %>%</p>
         <p>Wind Speed: <%= weather.wind.speed %> m/s</p>
