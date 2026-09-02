@@ -5,7 +5,6 @@ import axios from 'axios';
 
 const app = express();
 const port = 3000;
-// const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${process.env.api_key}`;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
