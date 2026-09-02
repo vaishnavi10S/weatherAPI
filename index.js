@@ -3,10 +3,11 @@ import ejs from 'ejs';
 import express from 'express';
 import bodyParser from 'body-parser';
 import axios from 'axios';
-export default app;
+
 
 const app = express();
 const port = 3000;
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
@@ -32,3 +33,5 @@ app.post('/weather', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+export default app;
