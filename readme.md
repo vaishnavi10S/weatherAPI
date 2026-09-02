@@ -5,6 +5,9 @@ A small weather lookup app — type in a city, get the current conditions back. 
 **Live demo:** #
 **Repo:** #
 
+<img width="1600" height="802" alt="image" src="https://github.com/user-attachments/assets/684d9ad5-ce86-4342-99f8-f89c8dd317fe" />
+
+
 ## What it does
 
 You type a city name, hit submit, and it shows you the temperature, a short description of the conditions, humidity, wind speed, and how it actually feels outside — along with a matching weather icon. If something goes wrong (bad city name, API hiccup), it fails gracefully instead of crashing.
